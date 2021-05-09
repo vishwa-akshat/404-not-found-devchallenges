@@ -13,8 +13,8 @@ body {
 }
 
 .left {
-    width: 35%;
-    margin-left: 100px;
+    width: 35vw;
+    margin-left: 4vw;
 }
 
 .left img {
@@ -23,17 +23,17 @@ body {
 }
 
 .right {
-    width: 40%;
+    width: 50vw;
     margin-left: 120px;
-    padding: 1rem;
+    padding: 1rem 7vw 0 1.5vw;
 }
 
 .right h1 {
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .right p {
-    font-size: 1.12rem;
+    font-size: 1.12vw;
     margin-top: -15px;
     width: 50%;
 }
@@ -43,9 +43,74 @@ body {
     background-color: black;
     font-weight: 700;
     color: white;
-    padding: 1rem 2.5rem;
+    padding: 3vh 3vw;
     cursor: pointer;
     border: none;
+}
+
+.attribute {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+@media only screen and (max-width:440px) {
+    .nav {
+        margin-left: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .left {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .left img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .right {
+        align-self: left;
+        width: 90vw;
+        margin-left: 40px;
+        padding: 10px;
+    }
+
+    .right h1 {
+        font-size: 11vw;
+    }
+
+    .right p {
+        font-size: 4.8vw;
+        margin-top: -15px;
+        width: 90%;
+    }
+
+    .right button {
+        margin-top: 25px;
+        background-color: black;
+        font-weight: 700;
+        color: white;
+        padding: 1.5rem 3rem;
+        cursor: pointer;
+        border: none;
+    }
+
+    .attribute {
+        font-size: 0.85rem;
+        position: relative;
+        bottom: -140px;
+        left: 15px;
+    }
 }
 
 /* ul {
