@@ -1,8 +1,54 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 
-ul {
+.nav {
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.left {
+    width: 35%;
+    margin-left: 100px;
+}
+
+.left img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.right {
+    width: 40%;
+    margin-left: 120px;
+    padding: 1rem;
+}
+
+.right h1 {
+    font-size: 4rem;
+}
+
+.right p {
+    font-size: 1.12rem;
+    margin-top: -15px;
+    width: 50%;
+}
+
+.right button {
+    margin-top: 25px;
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+/* ul {
     padding-left: 24px;
 }
 
@@ -31,4 +77,4 @@ li {
 
 .welcome-text a {
     color: #f7542e;
-}
+} */
